@@ -1,4 +1,7 @@
 <template>
+  <div>
+    <h1>Kitsada Thatnguenkwien</h1>
+  </div>
   <div id="flashMessage" v-if="GStore.flashMessage">
     {{ GStore.flashMessage }}
   </div>
