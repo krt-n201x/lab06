@@ -8,11 +8,11 @@
       |
       <router-link :to="{ name: 'EventEdit' }">Edit</router-link>
     </div>
-    <router-view :event="Store.event" />
+    <router-view :event="GStore.event" />
   </div>
 </template>
 <script>
 export default {
-  inject: ['Store']
+  inject: ['GStore']
 }
 </script>
