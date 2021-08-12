@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  web:
+    image: "kitsadacmu201x/se331-lab-06:latest"
+    ports:
+      - 8001:80
